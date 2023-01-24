@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "rtsp-start",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: rtsp-start",
+			"detail": "concurrently \"node ./src/index.js\" \"npm run build:main\" \"npm run build:renderer\""
+		}
+	]
+}
